@@ -2,7 +2,8 @@
 
 use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 
-class UndefinedCodes
+namespace UndefinedCodes;
+class Updater
 {
     /**
      * Constructor.

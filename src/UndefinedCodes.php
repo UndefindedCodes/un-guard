@@ -1,8 +1,9 @@
 <?php
 
+namespace UndefinedCodes;
+
 use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 
-namespace UndefinedCodes;
 class Updater
 {
     /**

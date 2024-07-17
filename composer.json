@@ -1,5 +1,5 @@
 {
-    "name": "UndefinedCodes",
+    "name": "undefinedcodes/updater",
     "description": "Undefined.codes updater",
     "license": "MIT",
     "autoload": {

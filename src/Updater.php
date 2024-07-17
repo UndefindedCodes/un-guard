@@ -4,6 +4,8 @@ namespace UndefinedCodes;
 
 use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 
+require_once __DIR__ . '/../vendor-prefixed/autoload.php';
+
 class Updater
 {
     /**

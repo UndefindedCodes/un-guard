@@ -1,0 +1,50 @@
+{
+    "name": "UndefinedCodes",
+    "description": "Undefined.codes updater",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "UndefinedCodes\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Undefined.codes",
+            "email": "contact@undefined.codes"
+        }
+    ],
+    "scripts": {
+        "prefix":  "vendor/bin/strauss"
+    },
+    "extra": {
+        "strauss": {
+            "target_directory": "vendor-prefixed",
+            "namespace_prefix": "UndefinedCodes\\",
+            "packages": [
+            ],
+            "override_autoload": {
+            },
+            "exclude_from_copy": {
+                "packages": [
+                ],
+                "namespaces": [
+                ],
+                "file_patterns": [
+                ]
+            },
+            "exclude_from_prefix": {
+                "packages": [
+                ],
+                "namespaces": [
+                ],
+                "file_patterns": [
+                    "/^psr.*$/"
+                ]
+            },
+            "namespace_replacement_patterns" : {
+            },
+            "delete_vendor_packages": false,
+            "delete_vendor_files": false
+        }
+    }
+}
